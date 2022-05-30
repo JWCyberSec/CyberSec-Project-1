@@ -1,0 +1,14 @@
+#Brace expanion command to create subdirectories
+mkdir backups
+~/backups/{freemem,diskuse,openlist,freedisk}
+
+#Paste system.sh scripts
+#!/bin/bash
+free -h > ~/backups/freemem/free_mem.txt
+du -h > ~/backups/diskuse/disk_usage.txt
+sudo lsof > ~/backups/openlist/open_list.txt
+df -h > ~/backups/freedisk/free_disk.txt
+
+#Command to make system.sh script executable
+Chmod +x system.sh
+
