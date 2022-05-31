@@ -56,10 +56,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 98.204.186.176    |
-| Web1     | No                  | 137.116.137.99    |
-| Web2     | No                  | 137.116.137.99    |
-| ELKVM    | Yes                 | 20.243.70.100
+| Jump Box | No              | 98.204.186.176 (SysAdmin Home)   |
+| Web1     | No                  | 137.116.137.99 (Jumpbox)    |
+| Web2     | No                  | 137.116.137.99 (Jumpbox)   |
+| ELKVM    | Yes  (port 5601)               | 137.116.137.99 
 
 ### Elk Configuration
 
